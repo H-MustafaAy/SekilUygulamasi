@@ -11,8 +11,8 @@ public class Ucgen extends Sekil{
     @Override
     public void ciz(){
 
-        for (int i = 0; i <= yukseklik; i++) {
-            for (int j = 1; j <= (i*taban / yukseklik); j++) {
+        for (double i = 0; i <= yukseklik; i++) {
+            for (double j = 1; j <= (i*taban / yukseklik); j++) {
                 System.out.print(sembol);
             }
             System.out.println();

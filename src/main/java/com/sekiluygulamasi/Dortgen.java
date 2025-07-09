@@ -17,8 +17,8 @@ public class Dortgen extends Sekil{
         return 2 * (en + boy);
     }
     public void ciz(){
-        for (int i= 0; i< boy; i++){
-            for (int j= 0; j< en; j++){
+        for (double i= 0; i< boy; i++){
+            for (double j= 0; j< en; j++){
                 System.out.print(sembol + " ");
 
             }
