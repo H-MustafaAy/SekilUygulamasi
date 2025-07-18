@@ -1,3 +1,1 @@
-Dikdörtgen: en: 54 boy: 6
-
-Kare : Kenar: 12
+Yıldız: Boyut: 11
