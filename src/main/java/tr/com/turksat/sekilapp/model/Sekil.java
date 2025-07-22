@@ -3,20 +3,19 @@ package tr.com.turksat.sekilapp.model;
 
 import java.util.Set;
 
-<<<<<<< HEAD
+
 import tr.com.turksat.sekilapp.annotation.TestableClass;
 
-=======
->>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
+
 /**
  * Soyut temel sınıf. Tüm şekiller bu sınıftan türetilir.
  * Her şeklin bir sembolü vardır (varsayılan "*").
  * Ayrıca şeklin çizilmesi, alan ve çevresinin hesaplanması için soyut metotlar içerir.
  */
-<<<<<<< HEAD
+
 @TestableClass
-=======
->>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
+
+
 public abstract class Sekil {
     protected String sembol = "*";
 
