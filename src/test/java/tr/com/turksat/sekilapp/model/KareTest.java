@@ -2,14 +2,20 @@ package tr.com.turksat.sekilapp.model;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 import static org.testng.Assert.*;
 
 /**
  * Kare sınıfı için alan ve çevre hesaplama metodlarının doğruluğunu test eden birim test sınıfı.
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 public class KareTest {
 
     /**

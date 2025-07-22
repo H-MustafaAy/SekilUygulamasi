@@ -208,6 +208,7 @@ public class Main {
             else{
                     switch (islem1) {
                         case"1":
+<<<<<<< HEAD
                             ciktilar.mesajYazdir("Testler başlatılıyor...");
                             // Tüm @TestableClass sınıflar ve uygun parametreler
                             Class<?>[] testClasses = new Class<?>[] {
@@ -227,6 +228,9 @@ public class Main {
                             String testSonuclari = tr.com.turksat.sekilapp.util.TestRunner.runTests(testClasses, testParams);
                             ciktilar.mesajYazdir(testSonuclari);
                             ciktilar.mesajYazdir("Testler tamamlandı.");
+=======
+                            ciktilar.mesajYazdir("Program çalışıyor.");
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
                             break;
 
                         case "4":

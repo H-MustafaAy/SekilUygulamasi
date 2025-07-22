@@ -1,8 +1,11 @@
 package tr.com.turksat.sekilapp.model;
+<<<<<<< HEAD
 
 import tr.com.turksat.sekilapp.annotation.TestableClass;
 import tr.com.turksat.sekilapp.annotation.TestableMethod;
 
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 /**
  * Dortgen sınıfı, Sekil sınıfından türetilmiş,
  * dikdörtgen ve kare gibi dört kenarlı şekiller için temel sınıftır.
@@ -10,7 +13,10 @@ import tr.com.turksat.sekilapp.annotation.TestableMethod;
  * En ve boy uzunlukları protected olarak tanımlanmıştır,
  * böylece alt sınıflar tarafından erişilebilir.
  */
+<<<<<<< HEAD
 @TestableClass
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 public class Dortgen extends Sekil {
     protected int en;
     protected int boy;
@@ -30,7 +36,10 @@ public class Dortgen extends Sekil {
      * @return Alan değeri (en * boy)
      */
     @Override
+<<<<<<< HEAD
     @TestableMethod
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
     public double alanHesapla() {
         return en * boy;
     }
@@ -42,7 +51,10 @@ public class Dortgen extends Sekil {
      * @return Çevre değeri (2 * (en + boy))
      */
     @Override
+<<<<<<< HEAD
     @TestableMethod
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
     public double cevreHesapla() {
         return 2 * (en + boy);
     }

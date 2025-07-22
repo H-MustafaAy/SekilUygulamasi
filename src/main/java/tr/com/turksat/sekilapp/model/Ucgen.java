@@ -1,13 +1,19 @@
 package tr.com.turksat.sekilapp.model;
 
+<<<<<<< HEAD
 import tr.com.turksat.sekilapp.annotation.TestableClass;
 import tr.com.turksat.sekilapp.annotation.TestableMethod;
 
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 /**
  * Üçgen şekli sınıfı.
  * Verilen taban ve yükseklik değerlerine göre üçgeni temsil eder.
  */
+<<<<<<< HEAD
 @TestableClass
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 public class Ucgen extends Sekil {
     private final int yukseklik;
     private final int taban;
@@ -46,7 +52,10 @@ public class Ucgen extends Sekil {
      * @return Üçgenin alanı (double)
      */
     @Override
+<<<<<<< HEAD
     @TestableMethod
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
     public double alanHesapla(){
         return (yukseklik * taban)/2;
     }
@@ -58,7 +67,10 @@ public class Ucgen extends Sekil {
      * @return cevre (double)
      */
     @Override
+<<<<<<< HEAD
     @TestableMethod
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
     public double cevreHesapla(){
         double hipotenus = Math.sqrt(Math.pow(yukseklik, 2) + Math.pow(taban, 2));
 

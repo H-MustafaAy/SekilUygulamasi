@@ -2,15 +2,21 @@ package tr.com.turksat.sekilapp.model;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+<<<<<<< HEAD
 
 import tr.com.turksat.sekilapp.annotation.TestableClass;
 
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 import static org.testng.Assert.*;
 
 /**
  * Dikdörtgen sınıfı için alan ve çevre hesaplama fonksiyonlarının test edildiği birim test sınıfı.
  */
+<<<<<<< HEAD
 @TestableClass
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 public class DikdortgenTest {
 
     /**

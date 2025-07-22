@@ -1,13 +1,19 @@
 package tr.com.turksat.sekilapp.model;
+<<<<<<< HEAD
 
 import tr.com.turksat.sekilapp.annotation.TestableClass;
 import tr.com.turksat.sekilapp.annotation.TestableMethod;
 
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 /**
  * Yuvarlak şekli sınıfı.
  * Yarıçap ve pi sayısı kullanılarak alan ve çevresi hesaplanır.
  */
+<<<<<<< HEAD
 @TestableClass
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
 public class Yuvarlak extends Sekil {
     private final int yaricap;
     private final double piSayisi;
@@ -52,7 +58,10 @@ public class Yuvarlak extends Sekil {
      * @return Alan değeri
      */
     @Override
+<<<<<<< HEAD
     @TestableMethod
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
     public double alanHesapla() {
 
         return  piSayisi*yaricap *yaricap;
@@ -65,7 +74,10 @@ public class Yuvarlak extends Sekil {
      * @return Çevre değeri
      */
     @Override
+<<<<<<< HEAD
     @TestableMethod
+=======
+>>>>>>> c0746bee659456860b0c0d1e61ceb9ef89fdd8a7
     public double cevreHesapla() {
 
         return  2*piSayisi*yaricap;
